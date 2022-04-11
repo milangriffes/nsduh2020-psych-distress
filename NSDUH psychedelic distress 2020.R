@@ -8,7 +8,7 @@ load("NSDUH_2020.RData")
 
 #Analysis variables: spdyr = past-year serious psychological distress; spdmon = past-month serious distress;
 #                   irhallucrec = Hallucinogen recency
-#Control variables (socioeconomic):  "NEWRACE2", "AGE2", "irsex", "irmarit", "income", "eduhighcat", "COUTYP4", 
+#Control variables (socioeconomic):  "NEWRACE2", "AGE2", "irsex", "irmarit", "income", "eduhighcat", "COUTYP4" 
 #Control variables (other drug use): "irinhalrec", "irmethamrec", "irtrqnmrec", 
 #                                   "irstmnmrec", "irsednmrec", "irmjrc", "ircocrc", "ircrkrc", "irherrc"
 
