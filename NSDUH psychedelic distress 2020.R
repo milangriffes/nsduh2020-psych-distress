@@ -36,7 +36,7 @@ drdf$psylastyear <- ifelse(drdf$irhallucrec == 1 |
                              drdf$irhallucrec == 2,
                            1, 0)
 
-#Remove rows where spdyr = NA
+#Remove rows where spdyr, spdmon are NA
 drdf <- drdf[complete.cases(drdf), ]
 
 
