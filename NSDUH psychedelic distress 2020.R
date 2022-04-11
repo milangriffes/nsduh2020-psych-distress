@@ -6,7 +6,8 @@ load("NSDUH_2020.RData")
 
 #Variable definitions here: https://www.datafiles.samhsa.gov/sites/default/files/field-uploads-protected/studies/NSDUH-2020/NSDUH-2020-datasets/NSDUH-2020-DS0001/NSDUH-2020-DS0001-info/NSDUH-2020-DS0001-info-codebook.pdf
 
-#Analysis variables: SPDYR = past-year serious psychological distress?; IRHALLUCREC = Hallucinogen recency
+#Analysis variables: spdyr = past-year serious psychological distress; spdmon = past-month serious distress
+#                   irhallucrec = Hallucinogen recency
 #Control variables (socioeconomic):  "NEWRACE2", "AGE2", "irsex", "irmarit", "income", "eduhighcat", "COUTYP4", 
 #Control variables (other drug use): "irinhalrec", "irmethamrec", "irtrqnmrec", 
 #                                   "irstmnmrec", "irsednmrec", "irmjrc", "ircocrc", "ircrkrc", "irherrc"
